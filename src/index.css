@@ -1,0 +1,104 @@
+:root {
+  --priamry: #29313D;
+  --brand_clr: #FF5538;
+  --white: #fff;
+}
+
+/* .......common code start........ */
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul,ol {
+  list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,ol {
+  padding: 0;
+  margin: 0;
+  line-height: .8;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.common_btn {
+  color: var(--brand_clr);
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 36px;
+  text-transform: capitalize;
+  padding: 14px 28px;
+  transition: all linear .3s;
+  border: 1px solid var(--brand_clr);
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+  -webkit-transition: all linear .3s;
+  -moz-transition: all linear .3s;
+  -ms-transition: all linear .3s;
+  -o-transition: all linear .3s;
+}
+
+.common_btn:hover {
+  background-color: var(--brand_clr);
+  color: var(--white);
+}
+
+.paragraph {
+  color: var(--priamry);
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 200%;
+  text-transform: capitalize;
+}
+
+.title {
+  color: var(--priamry);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 160%;
+  text-transform: capitalize;
+}
+
+.sub_heading {
+  color: var(--brand_clr);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  /* 28px */
+  text-transform: capitalize;
+}
+
+.heading {
+  color: var(--priamry);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 140%;
+  /* 67.2px */
+  text-transform: capitalize;
+}
+
+
+/* .......common code end........ */
+
+

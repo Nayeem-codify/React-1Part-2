@@ -1,0 +1,30 @@
+/* .............company start.................. */
+
+#company {
+    padding: 120px 0;
+}
+
+#company .company_heading {
+    width: 849px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+#company .company_wrapper {
+    display: flex;
+    column-gap: 54px;
+    flex-wrap: wrap;
+}
+
+#company .company_wrapper .company_item {
+    background-color: #FDF9F8;
+    width: 150px;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* .............company end.................. */

@@ -1,0 +1,24 @@
+/* .........service start here.............. */
+
+#service {
+    position: relative;
+    margin-top: -165px;
+}
+
+#service .service_wrapper {
+    display: flex;
+    column-gap: 30px;
+}
+
+#service .service_wrapper .service_item {
+    background-color: var(--white);
+    width: 450px;
+    padding: 40px 46px 40px 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#service .service_wrapper .service_item h3 {
+    padding: 34px 0 16px;
+}
+
+/* .........service end here.............. */

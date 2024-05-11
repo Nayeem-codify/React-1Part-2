@@ -1,0 +1,259 @@
+/* .......Banner code Start........ */
+
+#banner {
+    background-color: #FBF3F0;
+    padding: 115px 0 297px;
+    position: relative;
+}
+
+#banner .bannerCircle_one {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border: 1px solid #FFABBA;
+    border-radius: 50%;
+    animation: circleOne 4s linear infinite;
+    margin: 0 auto 60px auto;
+}
+
+@keyframes circleOne {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#banner .bannerCircle_one::after {
+    position: absolute;
+    content: "";
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #FFABBA;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+#banner .banner_content {
+    text-align: center;
+    position: relative;
+}
+
+#banner .banner_content h1 {
+    color: var(--priamry);
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    /* 83.2px */
+    text-transform: capitalize;
+    width: 771px;
+    margin: 0 auto;
+}
+
+#banner .banner_content p {
+    width: 547px;
+    margin: 0 auto;
+    padding: 24px 0 44px;
+}
+
+#banner .banner_content .banner_btn {
+    display: flex;
+    column-gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner .bannerShape_one {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#banner .bannershape_two {
+    position: absolute;
+    top: 24%;
+    left: 8%;
+}
+
+#banner .bannerShape_three {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+}
+
+#banner .bannerShape_four {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#banner .bannerShape_five {
+    position: absolute;
+    right: 6%;
+    bottom: 6%;
+}
+
+#banner .bannerShape_six {
+    position: absolute;
+    bottom: 27%;
+    left: 16%;
+}
+
+#banner .bannerShape_seven {
+    position: absolute;
+    left: 0;
+    bottom: -22%;
+}
+
+#banner .bannerCircle_two {
+    position: absolute;
+    bottom: 9%;
+    left: 14%;
+    width: 238px;
+    height: 238px;
+    border: 2px solid #FFDCD8;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#banner .bannerCircle_three {
+    position: absolute;
+    top: 19%;
+    right: 0;
+}
+
+
+
+#banner .bannerCross_01 {
+    position: absolute;
+    top: 36%;
+    right: 25%;
+    font-size: 20px;
+    color: #C087EE;
+}
+
+#banner .bannerCross_02 {
+    position: absolute;
+    top: 55%;
+    right: 36%;
+    font-size: 20px;
+    color: #FFDCD8;
+}
+
+#banner .bannerCross_03 {
+    position: absolute;
+    bottom: 32%;
+    left: 7%;
+    font-size: 20px;
+    color: #FFDCD8;
+}
+
+#banner .bannerCross_04 {
+    position: absolute;
+    top: 14%;
+    left: 14%;
+    font-size: 20px;
+    color: #FFDCD8;
+}
+
+#banner .bannerCross_05 {
+    position: absolute;
+    bottom: 20%;
+    left: 55%;
+    font-size: 20px;
+    color: #FFDCD8;
+}
+
+#banner .bannerBall_01 {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    font-size: 20px;
+    color: #FFDCD8;
+}
+
+#banner .bannerBall_02 {
+    position: absolute;
+    bottom: 35%;
+    left: 36%;
+    font-size: 5px;
+    color: #FFDCD8;
+}
+
+#banner .bannerBall_03 {
+    position: absolute;
+    bottom: 53%;
+    left: 30%;
+    font-size: 10px;
+    color: #FFDCD8;
+}
+
+#banner .bannerBall_04 {
+    position: absolute;
+    bottom: 70%;
+    left: 25%;
+    font-size: 6px;
+    color: #FFABBA;
+}
+
+#banner .bannerBall_05 {
+    position: absolute;
+    top: 25%;
+    right: 40%;
+    font-size: 12px;
+    color: #C087EE;
+}
+
+#banner .bannerBall_06 {
+    position: absolute;
+    top: 15%;
+    right: 29%;
+    font-size: 5px;
+    color: #C087EE;
+}
+
+.bannerSide_content {
+    position: absolute;
+    top: 18%;
+    left: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.bannerSide_content .language {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+#banner .bannerSide_content p {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    color: var(--priamry);
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+    text-transform: lowercase;
+}
+
+.bannerSide_content .scroll {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* .......Banner code end........ */

@@ -1,0 +1,46 @@
+/* ............project start.................. */
+
+#project {
+    background: #FFD7C8;
+    padding: 100px 0;
+    position: relative;
+}
+
+#project .project_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 48px;
+    border-bottom: 1px solid rgba(41, 49, 61, 0.2);
+
+}
+
+#project .project_wrapper h3 {
+    color: var(--priamry);
+    font-weight: 400;
+}
+
+#project .project_wrapper h2 {
+    padding-top: 7px;
+}
+
+#project .project_wrapper .common_btn {
+    z-index: 999;
+}
+
+#project article p {
+    font-size: 20px;
+    line-height: 180%;
+    padding-top: 24px;
+    width: 90%;
+}
+
+#project .project_shape {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+
+/* ............project end.................. */

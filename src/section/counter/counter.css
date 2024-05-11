@@ -1,0 +1,103 @@
+/* .........counter start........ */
+
+#counter {
+    background: #FDF9F8;
+    padding: 120px 0;
+    position: relative;
+}
+
+#counter .counter_wrapper {
+    display: flex;
+    column-gap: 100px;
+}
+
+#counter .counter_wrapper .counter_main {
+    width: 550px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    z-index: 99;
+}
+
+.counter_wrapper .counter_main .counter_item {
+    text-align: center;
+    width: 209px;
+    background-color: var(--white);
+    padding: 74px 60px;
+}
+
+.counter_wrapper .counter_main .counter_item h3 {
+    color: var(--priamry);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.counter_wrapper .counter_main .counter_item p {
+    line-height: 100%;
+}
+
+#counter .counter_content {
+    width: 760px;
+}
+
+#counter .counter_content h2 {
+    width: 570px;
+}
+
+#counter .counter_content p {
+    width: 550px;
+    padding: 20px 0 40px;
+}
+
+#counter .counter_shape {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#counter .counter_circle {
+    position: absolute;
+    top: 31%;
+    left: 2%;
+    width: 238px;
+    height: 238px;
+    border: 2px solid #FFDCD8;
+    border-radius: 50%;
+}
+
+#counter .worksBAll_01 {
+    position: absolute;
+    top: 47%;
+    left: 5%;
+    font-size: 20px;
+    color: #FFDCD8;
+}
+
+#counter .worksBAll_02 {
+    position: absolute;
+    top: 8%;
+    left: 12%;
+    font-size: 10px;
+    color: #FFDCD8;
+}
+
+#counter .worksBAll_03 {
+    position: absolute;
+    bottom: 6%;
+    left: 37%;
+    font-size: 12px;
+    color: #C087EE;
+}
+
+#counter .cross {
+    position: absolute;
+    top: 15%;
+    right: 20%;
+    font-size: 20px;
+    color: #FFDCD8;
+}
+
+/* .........counter end........ */

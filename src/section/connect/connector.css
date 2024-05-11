@@ -1,0 +1,108 @@
+/* ................connect start........... */
+
+#connect {
+    margin: 120px 0;
+    position: relative;
+}
+
+#connect .connect_wrapper {
+    display: flex;
+    align-items: center;
+}
+
+#connect .connect_heading h2 {
+    width: 475px;
+    padding-top: 10px;
+}
+
+#connect .connect_img {
+    width: 45%;
+    height: 521px;
+}
+
+#connect .connect_img .connectImg_box {
+    position: relative;
+    width: 110%;
+    height: 100%;
+    z-index: 999;
+}
+
+.connect_img .connectImg_box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#connect .connect_content {
+    width: 55%;
+    padding: 100px 325px 100px 185px;
+    background: rgba(251, 243, 240, 0.80);
+    position: relative;
+}
+
+#connect .connect_content h3 {
+    width: 570px;
+    color: var(--priamry);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 140%;
+    /* 50.4px */
+    text-transform: capitalize;
+}
+
+#connect .connect_content p {
+    width: 501px;
+    padding: 20px 0 48px;
+}
+
+#connect .connect_content .connect_shape {
+    position: absolute;
+    top: 33%;
+    right: 0;
+}
+
+#connect .bannerCircle_one {
+    position: absolute;
+    top: 4%;
+    left: 9%;
+    width: 120px;
+    height: 120px;
+    border: 1px solid #FFABBA;
+    border-radius: 50%;
+    animation: circleOne 4s linear infinite;
+
+}
+
+@keyframes circleOne {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#connect .bannerCircle_one::after {
+    position: absolute;
+    content: "";
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #FFABBA;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+#connect i {
+    position: absolute;
+    top: 15%;
+    right: 4%;
+    font-size: 20px;
+    color: #C087EE;
+}
+
+
+
+/* ................connect end........... */
